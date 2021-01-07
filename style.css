@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 2px 3px 9px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 3px 9px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 9px 0px rgba(0,0,0,0.75);
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: black;
+  display: inline-block;
+}
+
+.left-nav a:first-child {
+  font-family: verdana, geneva, tahona, san-serif ;
+  font-weight: bold;
+}
+
+.right-nav {
+  margin-right: 20px;
+}
+
+.left-nav {
+  margin-left: 20px; 
+}
+
+img{
+  width: 100%;
+}
+
+h2 {
+  padding: 5px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.container {
+  position: relative;
+  font-size: 30px;
+  color: white;
+}
+
+span {
+  background-color: black;
+  font-family: verdana, geneva, tahona, san-serif ;
+}
+
+.overlay1 {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 15px;
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.para {
+  margin-left: 15px;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container1 {
+  width: 300px;
+  position: relative;
+}
+
+.team {
+  width: 350px;
+  margin-top: 20px;
+}
+
+h3 {
+  color: grey;
+  margin: 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team p {
+  margin-bottom: 10px;
+}
+
+.team button {
+  width: 350px;
+  padding: 5px;
+  
+}
+
+input {
+  width: 98%;
+  padding: 5px;
+  margin: 5px 30px 5px 10px;
+  border: 1px solid grey;
+}
+
+.last {
+  width: 100%;
+  margin: 20px 40px 20px 40px;
+}
+
+footer {
+  background-color: black;
+}
+
+.Contact button {
+  padding: 10px;
+  margin: 10px ; 
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 1100px) 
+  .team {
+    max-width: 500px;
+    width: 100%;
+    min-width: 200px;
+    
+  }
+  .container1 {
+    max-width: 350px;
+    width: 100%;
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .team {
+    max-width: 300px;
+    width: 100%;
+    min-width: 200px;
+
+  }
+  .container1 {
+    max-width: 300px;
+    width: 80%;
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .right-nav {
+    display: none;
+  }
+}
+
+`
